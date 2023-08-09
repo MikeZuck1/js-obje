@@ -6,15 +6,15 @@ appDiv.innerHTML;
 
 function ele() {
   let robotXml = {
-    typeOfMachine: 'robot', 
-    isArobot: true,
-    color: 'Grey', 
+    typeOfMachine: 'robot', // peer key-value
+    isArobot: true, // peer key-value
+    color: 'Grey', // peer key-value
     teamOfProgrammers: { 
-      headOfTeam: 'Steve Jobs',  
-      programmers: ['Steve Wozniack', 'Andy Hertzfeld', 'Can'], 
-      experienceOfYearsSteveWozniack: 30,
-      experienceOfYearsAndyHertzfeld: 27, 
-      experienceOfYearsCan: 22,
+      headOfTeam: 'Steve Jobs',  // peer key-value
+      programmers: ['Steve Wozniack', 'Andy Hertzfeld', 'Can'], // peer key-value
+      experienceOfYearsSteveWozniack: 30, // peer key-value
+      experienceOfYearsAndyHertzfeld: 27, // peer key-value
+      experienceOfYearsCan: 22, // peer key-value
     },
     massProduction() {
       return this.experienceOfYearsSteveWozniack + ' ' + this.experienceOfYearsAndyHertzfeld + ' ' + this.experienceOfYearsCan;   
